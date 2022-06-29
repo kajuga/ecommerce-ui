@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/HomeView.vue';
-import AddCategory from '../views/category/AddCategory'
-import CategoryView from '../views/category/Category';
+import Home from '../views/HomeView'
+import AddCategory from "../views/category/AddCategory";
+import Category from "../views/category/Category";
 
 const routes = [
   {
@@ -16,7 +16,7 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-        import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
+        import(/* webpackChunkName: "about" */ "../views/AboutView"),
   },
   {
     path: "/admin/category/add",
@@ -26,8 +26,8 @@ const routes = [
   {
     path: "/admin/category",
     name: "AdminCategory",
-    component: CategoryView,
-  },
+    component: Category,
+  }
 ];
 
 const router = createRouter({
