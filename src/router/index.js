@@ -3,6 +3,8 @@ import Home from '../views/HomeView'
 import AddCategory from "../views/category/AddCategory";
 import Category from "../views/category/Category";
 import EditCategory from "../views/category/EditCategory";
+import AddProduct from "../components/product/AddProduct";
+
 
 const routes = [
   {
@@ -33,6 +35,11 @@ const routes = [
     path: "/admin/category/:id",
     name: "EditCategory",
     component: EditCategory
+  },
+  {
+    path: "/admin/product/add",
+    name: "AddProduct",
+    component: AddProduct,
   }
 ];
 
