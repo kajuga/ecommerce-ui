@@ -8,22 +8,13 @@ import Product from "../views/product/Product";
 import EditProduct from "../views/product/EditProduct";
 import ShowDetails from "../views/product/ShowDetail";
 import SignUp from "../views/SignUp";
-
+import SignIn from "../views/SignIn";
 
 const routes = [
   {
     path: "/",
     name: "Home",
     component: Home,
-  },
-  {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-        import(/* webpackChunkName: "about" */ "../views/AboutView"),
   },
   {
     path: "/admin/category/add",
@@ -38,7 +29,7 @@ const routes = [
   {
     path: "/admin/category/:id",
     name: "EditCategory",
-    component: EditCategory
+    component: EditCategory,
   },
   {
     path: "/admin/product/add",
@@ -48,7 +39,7 @@ const routes = [
   {
     path: "/admin/product",
     name: "AdminProduct",
-    component: Product,
+    component: Product
   },
   {
     path: "/admin/product/:id",
@@ -64,6 +55,11 @@ const routes = [
     path: '/signup',
     name: 'SignUp',
     component: SignUp
+  },
+  {
+    path: '/signin',
+    name: 'SignIn',
+    component: SignIn
   }
 ];
 
