@@ -5,8 +5,8 @@
 
       <div class="container py-5">
         <header class="text-left text-white py-5">
-          <h3 class="mb-4 rounded"><a href="#start-shopping" class="bg-white px-2 py-2 rounded" id="heading">Start Shopping</a></h3>
-          <p id="content" class="lead mb-0 bg-dark p-1 rounded">Добро пожаловать на стартовую страницу, покупатель!</p>
+          <h3 class="mb-4 rounded"><a href="#start-shopping" class="bg-white px-2 py-2 rounded" id="heading">Start shopping</a></h3>
+          <p id="content" class="lead mb-0 bg-dark p-1 rounded">Welcome!</p>
         </header>
       </div>
     </div>

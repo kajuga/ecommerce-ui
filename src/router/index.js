@@ -7,6 +7,7 @@ import AddProduct from "../views/product/AddProduct";
 import Product from "../views/product/Product";
 import EditProduct from "../views/product/EditProduct";
 import ShowDetails from "../views/product/ShowDetail";
+import SignUp from "../views/SignUp";
 
 
 const routes = [
@@ -58,6 +59,11 @@ const routes = [
     path : '/product/show/:id',
     name : 'ShowDetails',
     component: ShowDetails
+  },
+  {
+    path: '/signup',
+    name: 'SignUp',
+    component: SignUp
   }
 ];
 
