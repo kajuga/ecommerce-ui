@@ -69,7 +69,7 @@ export default {
       // api call
       await axios({
         method: 'post',
-        url: this.baseURL + "user/signin",
+        url: this.baseURL + "user/signIn",
         data : JSON.stringify(user),
         headers: {
           'Content-Type': 'application/json'
