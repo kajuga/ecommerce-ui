@@ -18,7 +18,7 @@ const axios = require('axios')
 export default {
   data(){
     return {
-      stripeAPIToken: '<Stripe public key goes here>',
+      stripeAPIToken: '<Stripe public key>',
       stripe: '',
       token:null,
       sessionId:null,
@@ -26,7 +26,7 @@ export default {
     }
   },
 
-  name:'CheckoutView',
+  name:'CheckOutView',
   props:["baseURL"],
   methods: {
     /*
