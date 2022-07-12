@@ -1,12 +1,12 @@
 <template>
   <div id="home">
     <!-- Page Wrapper -->
-    <div id="background-div" class="page-holder bg-cover">
+    <div id="background-div" class="page-holder bg-info">
 
       <div class="container py-5">
-        <header class="text-left text-white py-5">
+        <header class="text-center text-white py-5">
           <h3 class="mb-4 rounded"><a href="#start-shopping" class="bg-white px-2 py-2 rounded" id="heading">Start shopping</a></h3>
-          <p id="content" class="lead mb-0 bg-dark p-1 rounded">Welcome!</p>
+          <p id="content" class="lead mb-0 bg-danger p-1 rounded">Внимание! Сайт находится в разработке</p>
         </header>
       </div>
     </div>
@@ -67,15 +67,15 @@ export default {
 
 <style>
 .page-holder {
-  min-height: 100vh;
+  min-height: 10vh;
 }
 
 .bg-cover {
-  background-size: cover !important;
+  background-size: cover  !important;
 }
 
 #background-div {
-  background: url(../assets/homepage.jpg)
+  background: url(../assets/construction.png)
 }
 
 #heading {
